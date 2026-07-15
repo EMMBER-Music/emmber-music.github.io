@@ -17,7 +17,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&amp;family=Arima+Madurai:wght@400;700&amp;family=Rajdhani:wght@400;700&amp;family=Russo+One&amp;display=swap" rel="stylesheet">
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-	<!-- This site is optimized with the Yoast SEO plugin v20.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<!-- This site is optimized with the Yoast SEO plugin v28.0 - https://yoast.com/product/yoast-seo-wordpress/ -->
 	<title>Uncategorized Archives - eMMber</title>
 	<link rel="canonical" href="https://emmber-music.github.io/category/uncategorized">
 	<meta property="og:locale" content="en_US">
@@ -27,30 +27,30 @@
 	<meta property="og:site_name" content="eMMber">
 	<meta name="twitter:card" content="summary_large_image">
 	<script type="application/ld+json" class="yoast-schema-graph">{
-	    "@context": "https://schema.org",
+	    "@context": "https:\/\/schema.org",
 	    "@graph": [
 	        {
 	            "@type": "CollectionPage",
-	            "@id": "https://emmber-music.github.io/category/uncategorized",
-	            "url": "https://emmber-music.github.io/category/uncategorized",
+	            "@id": "https:\/\/emmber-music.github.io\/category\/uncategorized",
+	            "url": "https:\/\/emmber-music.github.io\/category\/uncategorized",
 	            "name": "Uncategorized Archives - eMMber",
 	            "isPartOf": {
-	                "@id": "https://emmber-music.github.io/#website"
+	                "@id": "https:\/\/emmber-music.github.io\/#website"
 	            },
 	            "breadcrumb": {
-	                "@id": "https://emmber-music.github.io/category/uncategorized#breadcrumb"
+	                "@id": "https:\/\/emmber-music.github.io\/category\/uncategorized#breadcrumb"
 	            },
 	            "inLanguage": "en-US"
 	        },
 	        {
 	            "@type": "BreadcrumbList",
-	            "@id": "https://emmber-music.github.io/category/uncategorized#breadcrumb",
+	            "@id": "https:\/\/emmber-music.github.io\/category\/uncategorized#breadcrumb",
 	            "itemListElement": [
 	                {
 	                    "@type": "ListItem",
 	                    "position": 1,
 	                    "name": "Home",
-	                    "item": "https://emmber-music.github.io/"
+	                    "item": "https:\/\/emmber-music.github.io\/"
 	                },
 	                {
 	                    "@type": "ListItem",
@@ -61,8 +61,8 @@
 	        },
 	        {
 	            "@type": "WebSite",
-	            "@id": "https://emmber-music.github.io/#website",
-	            "url": "https://emmber-music.github.io/",
+	            "@id": "https:\/\/emmber-music.github.io\/#website",
+	            "url": "https:\/\/emmber-music.github.io\/",
 	            "name": "eMMber",
 	            "description": "The Dawn of a New Era",
 	            "potentialAction": [
@@ -70,9 +70,13 @@
 	                    "@type": "SearchAction",
 	                    "target": {
 	                        "@type": "EntryPoint",
-	                        "urlTemplate": "https://emmber-music.github.io/?s={search_term_string}"
+	                        "urlTemplate": "https:\/\/emmber-music.github.io\/?s={search_term_string}"
 	                    },
-	                    "query-input": "required name=search_term_string"
+	                    "query-input": {
+	                        "@type": "PropertyValueSpecification",
+	                        "valueRequired": true,
+	                        "valueName": "search_term_string"
+	                    }
 	                }
 	            ],
 	            "inLanguage": "en-US"

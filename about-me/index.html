@@ -17,7 +17,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&amp;family=Arima+Madurai:wght@400;700&amp;family=Rajdhani:wght@400;700&amp;family=Russo+One&amp;display=swap" rel="stylesheet">
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-	<!-- This site is optimized with the Yoast SEO plugin v20.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<!-- This site is optimized with the Yoast SEO plugin v28.0 - https://yoast.com/product/yoast-seo-wordpress/ -->
 	<title>About Me - eMMber</title>
 	<link rel="canonical" href="https://emmber-music.github.io/about-me">
 	<meta property="og:locale" content="en_US">
@@ -27,40 +27,39 @@
 	<meta property="og:site_name" content="eMMber">
 	<meta name="twitter:card" content="summary_large_image">
 	<script type="application/ld+json" class="yoast-schema-graph">{
-	    "@context": "https://schema.org",
+	    "@context": "https:\/\/schema.org",
 	    "@graph": [
 	        {
 	            "@type": "WebPage",
-	            "@id": "https://emmber-music.github.io/about-me",
-	            "url": "https://emmber-music.github.io/about-me",
+	            "@id": "https:\/\/emmber-music.github.io\/about-me",
+	            "url": "https:\/\/emmber-music.github.io\/about-me",
 	            "name": "About Me - eMMber",
 	            "isPartOf": {
-	                "@id": "https://emmber-music.github.io/#website"
+	                "@id": "https:\/\/emmber-music.github.io\/#website"
 	            },
 	            "datePublished": "2020-08-22T17:57:17+00:00",
-	            "dateModified": "2020-08-22T17:57:17+00:00",
 	            "breadcrumb": {
-	                "@id": "https://emmber-music.github.io/about-me#breadcrumb"
+	                "@id": "https:\/\/emmber-music.github.io\/about-me#breadcrumb"
 	            },
 	            "inLanguage": "en-US",
 	            "potentialAction": [
 	                {
 	                    "@type": "ReadAction",
 	                    "target": [
-	                        "https://emmber-music.github.io/about-me"
+	                        "https:\/\/emmber-music.github.io\/about-me"
 	                    ]
 	                }
 	            ]
 	        },
 	        {
 	            "@type": "BreadcrumbList",
-	            "@id": "https://emmber-music.github.io/about-me#breadcrumb",
+	            "@id": "https:\/\/emmber-music.github.io\/about-me#breadcrumb",
 	            "itemListElement": [
 	                {
 	                    "@type": "ListItem",
 	                    "position": 1,
 	                    "name": "Home",
-	                    "item": "https://emmber-music.github.io/"
+	                    "item": "https:\/\/emmber-music.github.io\/"
 	                },
 	                {
 	                    "@type": "ListItem",
@@ -71,8 +70,8 @@
 	        },
 	        {
 	            "@type": "WebSite",
-	            "@id": "https://emmber-music.github.io/#website",
-	            "url": "https://emmber-music.github.io/",
+	            "@id": "https:\/\/emmber-music.github.io\/#website",
+	            "url": "https:\/\/emmber-music.github.io\/",
 	            "name": "eMMber",
 	            "description": "The Dawn of a New Era",
 	            "potentialAction": [
@@ -80,9 +79,13 @@
 	                    "@type": "SearchAction",
 	                    "target": {
 	                        "@type": "EntryPoint",
-	                        "urlTemplate": "https://emmber-music.github.io/?s={search_term_string}"
+	                        "urlTemplate": "https:\/\/emmber-music.github.io\/?s={search_term_string}"
 	                    },
-	                    "query-input": "required name=search_term_string"
+	                    "query-input": {
+	                        "@type": "PropertyValueSpecification",
+	                        "valueRequired": true,
+	                        "valueName": "search_term_string"
+	                    }
 	                }
 	            ],
 	            "inLanguage": "en-US"
