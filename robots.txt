@@ -3,6 +3,6 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://emmber-music.github.io/sitemap_index.xml
+Sitemap: /sitemap_index.xml
 # ---------------------------
 # END YOAST BLOCK
